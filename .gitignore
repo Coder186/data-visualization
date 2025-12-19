@@ -1,0 +1,81 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+parts/
+wheels/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+venv*/
+env*/
+
+# Pyenv
+.python-version
+
+# Pipenv / Poetry
+Pipfile.lock
+poetry.lock
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments and secrets
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Static and build artifacts
+*.egg
+*.egg-info/
+build/
+dist/
+
+# Optional: ignore dataset files (uncomment if you don't want to track them)
+# visualize-data-using-a-chart/ExcelFormattedGISTEMPDataCSV.csv
+# visualize-data-using-a-chart/ExcelFormattedGISTEMPDataTXT.txt
+
+# End of file
